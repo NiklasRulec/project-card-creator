@@ -1,0 +1,122 @@
+/* ! ++++++++++ BASIC ++++++++++ */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Regular";
+  src: url(../font/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Regular";
+  overflow-x: hidden;
+}
+
+label {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* ! ++++++++++ SECTION ++++++++++ */
+
+section {
+  color: white;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+nav {
+  text-align: center;
+  width: 100%;
+  height: 5rem;
+}
+
+.input-form {
+  width: 30rem;
+  height: 45rem;
+  border: 2px solid black;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 0.5rem;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input,
+select {
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+.gallery {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/* ! ++++++++++ CARD ++++++++++ */
+
+.card-design {
+  width: 30rem;
+  height: 40rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  background-color: whitesmoke;
+  color: black;
+  box-shadow: 3px 3px 3px 3px rgb(45, 45, 45);
+  margin: 2rem;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  transition: all 0.3s;
+}
+
+.card-design:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px 5px rgb(45, 45, 45);
+}
+
+.card-design img {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.card-design h2 {
+  max-width: 80%;
+}

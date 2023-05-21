@@ -15,11 +15,11 @@
       <article class="input-form">
         <form onsubmit="newCardFunction();return false">
           <label>Vorname : </label>
-          <input type="text" class="player-name" />
+          <input type="text" class="player-name" required />
           <label>Nachname : </label>
-          <input type="text" class="player-surname" />
+          <input type="text" class="player-surname" required />
           <label>Verein : </label>
-          <input type="text" class="player-club" />
+          <input type="text" class="player-club" required />
           <label>Position : </label>
           <select class="player-position">
             <option value="Torwart">Torwart</option>
@@ -28,7 +28,7 @@
             <option value="Stürmer">Stürmer</option>
           </select>
           <label>Bild URL : </label>
-          <input type="text" class="player-image" />
+          <input type="text" class="player-image" required />
           <input type="submit" value="Karte erstellen" />
         </form>
       </article>
